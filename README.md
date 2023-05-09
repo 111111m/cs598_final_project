@@ -2,8 +2,10 @@
 
 1	Citation to the original paper
 https://github.com/mp2893/gram
+
 2	Link to the original paper’s repo (if applicable)
 https://github.com/mp2893/gram
+
 3	Dependencies
 
 import torch
@@ -25,10 +27,13 @@ We chose to use the same MIMIC-III dataset that the paper originally used. The m
 5	Preprocessing code + command (if applicable)
 python process_mimic.py ADMISSIONS.csv DIAGNOSES_ICD.csv out1
 python build_trees.py ccs_multi_dx_tool_2015.csv out2 out1.seqs out1.3digitICD9.seqs
+
 6	Training code + command (if applicable)
 python gram_original.py out2.seqs out1.3digitICD9.seqs out2
+
 7	Evaluation code + command (if applicable)
 python gram_original.py out2.seqs out1.3digitICD9.seqs out2
+
 8	Pretrained model (if applicable)
 python create_glove_compap.py out2 out1.3digitICD9.seqs
 python gram_original.py out2.seqs out1.3digitICD9.seqs out2 --embed_file out32f.48.npz 128
