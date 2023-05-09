@@ -32,11 +32,11 @@ python build_trees.py ccs_multi_dx_tool_2015.csv out2 out1.seqs out1.3digitICD9.
 
 6	Training code + command (if applicable)
 
-python gram_original.py out2.seqs out1.3digitICD9.seqs out2
+python gram_original.py out2.seqs out1.3digitICD9.seqs mimic_out2
 
 7	Evaluation code + command (if applicable)
 
-python gram_original.py out2.seqs out1.3digitICD9.seqs out2
+python gram_original.py out2.seqs out1.3digitICD9.seqs mimic_out2
 
 8	Pretrained model (if applicable)
 
@@ -47,3 +47,4 @@ python gram_original.py out2.seqs out1.3digitICD9.seqs out2 --embed_file out32f.
 In the original paper
 
 the reproducibility scope is in the original paper too. Some of the files are from the original repo cause that's not our reprocibility scope. 
+This repository only includes part of the weights, some other weights files are too larget to upload. 
