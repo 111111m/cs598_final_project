@@ -34,6 +34,6 @@ python create_glove_compap.py out2 out1.3digitICD9.seqs
 python gram_original.py out2.seqs out1.3digitICD9.seqs out2 --embed_file out32f.48.npz 128
 •	Table of results (no need to include additional experiments, but main reproducibility result should be included)
 )
-
 In the original paper
-# the reproducibility scope is in the original paper too. Some of the files are from the original repo cause that's not our reprocibility scope. 
+
+the reproducibility scope is in the original paper too. Some of the files are from the original repo cause that's not our reprocibility scope. 
